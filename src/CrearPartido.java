@@ -22,7 +22,7 @@ public class CrearPartido extends javax.swing.JFrame
 
     /**
      * 
-     * @param ventana 
+     * @param ventana creacion de la ventana de la aplicacion
      */
     public CrearPartido(Apuesta ventana) 
     {
@@ -79,7 +79,7 @@ public class CrearPartido extends javax.swing.JFrame
     }// </editor-fold>//GEN-END:initComponents
     /**
      * 
-     * @param p 
+     * @param p añade un partido
      */
     public void añadePartido(String p)
     {
@@ -107,7 +107,7 @@ public class CrearPartido extends javax.swing.JFrame
 
     /**
      * 
-     * @param args 
+     * @param args crea y muestra la ventana
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */

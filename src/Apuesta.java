@@ -12,7 +12,7 @@ import javax.swing.WindowConstants;
 public class Apuesta extends javax.swing.JFrame {
 
     /**
-     * 
+     * Este codigo genererá una ventana para crear una lista de apuestas
      */
     public Apuesta() 
     {
@@ -153,9 +153,9 @@ public class Apuesta extends javax.swing.JFrame {
 
     /**
      * 
-     * @param n1
-     * @param n2
-     * @return 
+     * @param n1 primer numero
+     * @param n2 segundo numero
+     * @return devolver numeros
      */
     public int cualquiera(int n1, int n2)
     {
@@ -193,7 +193,7 @@ public class Apuesta extends javax.swing.JFrame {
 
     /**
      * 
-     * @param partido 
+     * @param partido nombra el partido
      */
     public void partidoNuevo(String partido)
     {
@@ -210,7 +210,7 @@ public class Apuesta extends javax.swing.JFrame {
     
     /**
      * 
-     * @param indice 
+     * @param indice lista 
      */
     public void borraPartido(int indice)
     {
@@ -239,7 +239,7 @@ public class Apuesta extends javax.swing.JFrame {
     
     /**
      * 
-     * @param args 
+     * @param args crea y muestra la aplicacion
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -274,6 +274,9 @@ public class Apuesta extends javax.swing.JFrame {
         });
     }
 
+    /**
+     * 
+     */
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bEliminar;
     private javax.swing.JButton bNuevo;
